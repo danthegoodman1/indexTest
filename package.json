@@ -10,6 +10,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "elasticlunr": "^0.9.5"
+    "elasticlunr": "^0.9.5",
+    "ioredis": "^4.14.1",
+    "redis": "^2.8.0"
   }
 }
