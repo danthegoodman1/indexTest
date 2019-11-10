@@ -20,6 +20,11 @@ index.addDoc({
     "body": "As expected, Oracle released its profit report of 2015, during the good sales of database and hardware, Oracle's profit of 2015 reached 12.5 Billion."
 })
 
+// save indexes to file:
+// JSON.stringify(index)
+// load indexes from file:
+// index = elasticlunr.Index.load(JSON.parse(fileContents))
+
 const searchStuff = (input) => {
     if (!input) return ""
     const res = index.search(input, {
